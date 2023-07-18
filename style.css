@@ -1,9 +1,41 @@
+/*Changes*/ 
+/* delete uneccessary main tags  */
+/* deleted the ( div class= "container ") in the footer */
+/*   removed p-tag for text align in the "home section" */
+
+/* Needed changes  */
+/* Change home picture so you see it all in one go  */
+body{ 
+  background-color: black; 
+  color: white; 
+  text-align: center; 
+}
+
+.table-color{ 
+    color: black; 
+}
+
+p{
+  font-size:20px; 
+  text-align:center; 
+  line-height: 28px; 
+
+  
+}
+
+section{
+  background-color:#2A2A2A; 
+  margin-bottom: 5px; 
+}
+
 /* About Us Section */
+
 .container {
-    max-width: 960px; /* set the maximum width of the container */
+    max-width: 90%; /* set the maximum width of the container */
     margin: 0 auto; /* center the container horizontally */
     padding: 0 15px; /* add some padding to the left and right sides */
     margin-top: 5px;
+  background-color: auto;
 }
 
 
@@ -68,7 +100,7 @@ header nav ul li a:hover {
 }
 
 #about p {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 30px;
     text-align: center;
 }
@@ -103,10 +135,6 @@ header nav ul li a:hover {
 }
 
 /* Services Section */
-#services {
-    background-color: #fff;
-    padding: 80px 0;
-}
 
 #services h2 {
     font-size: 48px;
@@ -134,11 +162,6 @@ header nav ul li a:hover {
     margin-bottom: 16px;
 }
 
-#services .service p {
-    font-size: 18px;
-    line-height: 28px;
-    text-align: center;
-}
 table {
     width: 100%;
     border-collapse: collapse;
@@ -247,11 +270,7 @@ input[type="submit"]:hover {
     background-color: #0069d9;
 }
 
-#contact {
-    background-color: #f5f5f5;
-    padding: 50px 0;
-    text-align: center;
-}
+/* Contact section */
 
 #contact h2 {
     margin-bottom: 30px;
